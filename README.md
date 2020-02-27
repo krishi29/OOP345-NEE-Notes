@@ -6,6 +6,11 @@
 [Subject timeline](https://scs.senecac.on.ca/~oop345/pages/timeline.html)<br />
 [Online verions of the notes sold in the bookstore](https://scs.senecac.on.ca/~oop345/pages/content/index.html)<br />
 [Workshops](https://github.com/Seneca-345305/OOP-Workshops)<br />
+## Lab Attendance
+In order for your in-lab submission to be valid, you must execute the attendance submission from a lab computer as follows:<br />
+Make sure you have only one connection open to Matrix and then execute the follwing:<br />
+**~fardad.soleimanloo/submit 345/NEE/WS##/attendance**  (**##** => Workshop number) <br />
+If you do not execute the above command during the lab you are attending, any work submitted for that lab will get the mark ZERO
 ## Quizzes and how to reflect on them 
 Your quizzes are marked as follows:<br />
 Each question has 2 marks:<br />
@@ -31,7 +36,14 @@ Write exactly which part of the code of the workshops or the assignment are give
 You need to mention the workshop name or assignment name and also the file name and the parts in which you received the code for help.<br />
 Finally add your name and student number at the bottum.<br /><br />
 By doing this you will only lose the mark for the parts you got help for, and the person helping you will be clear of any wrong doing. 
+## .bash_profile or .bashrc alieses
+Set these alieses in .bash_profile or .bashrc in your home directory of Matrix for your compiler settings and ease of submitting works:
+```
+export LD_LIBRARY_PATH=/usr/local/gcc/9.1.0/lib64:$LD_LIBRARY_PATH
+alias G++="/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17"
 
+alias fsub="~fardad.soleimanloo/submit"
+```
 
 ## Git
 [Pro Git Book](https://git-scm.com/book): This is and online complete reference to git and its commands (command line). I recommend reading chapter 1 and 2 and glancing chapter 6. This will be more than enough to get your through atleast first three semesters of college, if not all. <br />
@@ -43,4 +55,224 @@ By doing this you will only lose the mark for the parts you got help for, and th
 
 
 ## Fardad's Schedule
-TBA
+<table style="background-color: White; width: 608px; height: 506px;"
+bordercolorlight="#72D8D8" bordercolordark="#2D9F9F" border="1"
+bordercolor="#38c7c7" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="center" valign="middle" width="18">P</td>
+<td align="center" valign="middle" width="45">Strt<br>
+End</td>
+<td align="center" valign="middle" width="101">Monday</td>
+<td align="center" valign="middle" width="109">Tuesday</td>
+<td align="center" valign="middle" width="102">Wednesday</td>
+<td align="center" valign="middle" width="109">Thursday</td>
+<td align="center" valign="middle" width="108">Friday</td>
+</tr>
+<tr>
+<td align="center" valign="middle" width="18">1</td>
+<td align="center" valign="middle" width="45">08:00<br>
+08:50</td>
+<td style="background-color: white;" align="center"
+bgcolor="White" width="101">&nbsp;</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff">&nbsp;</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff" width="102">&nbsp;</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff">&nbsp;</td>
+<td
+style="width: 108px; text-align: center; background-color: rgb(51, 255, 51);">OOP244NBBL&nbsp;</td>
+</tr>
+<tr>
+<td align="center" valign="middle" width="18">2</td>
+<td align="center" valign="middle" width="45">08:55<br>
+09:45</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff" width="101">&nbsp;</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff">&nbsp;</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff" width="102">&nbsp;</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff">&nbsp;</td>
+<td
+style="text-align: center; background-color: rgb(51, 255, 51);">LAB
+C3034<br>
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle" width="18">3</td>
+<td align="center" valign="middle" width="45">09:50<br>
+10:40</td>
+<td style="background-color: white;" align="center"
+bgcolor="#33ff33">&nbsp;</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff" width="109">&nbsp;</td>
+<td style="width: 102px; text-align: center;"><br>
+</td>
+<td style="background-color: white;" align="center">&nbsp;</td>
+<td
+style="text-align: center; background-color: rgb(0, 204, 204);">OOP244NAAL<br>
+</td>
+</tr>
+<tr>
+<td align="center" height="38" valign="middle" width="18">4</td>
+<td align="center" height="38" valign="middle" width="45">10:45<br>
+11:35</td>
+<td
+style="text-align: center; background-color: rgb(0, 204, 204);">OOP244NAB&nbsp;</td>
+<td style="background-color: white;" align="center"
+valign="middle" width="109">&nbsp;</td>
+<td
+style="width: 102px; text-align: center; background-color: rgb(51, 255, 255);">OFFICE<br>
+See notes below<br>
+</td>
+<td style="background-color: white;" align="center">&nbsp;</td>
+<td
+style="text-align: center; background-color: rgb(0, 204, 204);">LAB
+A4526<br>
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle" width="18">5</td>
+<td align="center" valign="middle" width="45">11:40<br>
+12:30</td>
+<td
+style="width: 101px; text-align: center; background-color: rgb(51, 255, 51);">K3010<br>
+</td>
+<td style="text-align: center; background-color: white;"><br>
+</td>
+<td
+style="width: 102px; text-align: center; background-color: rgb(51, 255, 255);">A3058</td>
+<td style="text-align: center; background-color: white;"> <br>
+</td>
+<td align="center" width="108"><br>
+</td>
+</tr>
+<tr>
+<td align="center" height="28" valign="middle" width="18">6</td>
+<td align="center" height="28" valign="middle" width="45">12:35<br>
+13:25</td>
+<td style="background-color: white;" align="center" width="101"><br>
+</td>
+<td style="text-align: center; background-color: white;"><br>
+</td>
+<td
+style="width: 102px; vertical-align: middle; text-align: center;"><br>
+</td>
+<td style="text-align: center; background-color: white;"><br>
+</td>
+<td
+style="width: 108px; vertical-align: middle; text-align: center; background-color: rgb(51, 255, 255);">OFFICE<br>
+See notes below<br>
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle" width="18">7</td>
+<td align="center" valign="middle" width="45">13:30<br>
+14:20</td>
+<td
+style="width: 101px; text-align: center; background-color: rgb(255, 255, 102);">OOP345NEE<br>
+</td>
+<td
+style="width: 109px; text-align: center; background-color: white;"><br>
+</td>
+<td style="text-align: center; background-color: white;"><br>
+</td>
+<td style="background-color: white;" align="center"><br>
+</td>
+<td
+style="text-align: center; background-color: rgb(51, 255, 255);">&nbsp;A3058</td>
+</tr>
+<tr>
+<td align="center" valign="middle" width="18">8</td>
+<td align="center" valign="middle" width="45">14:25<br>
+15:15</td>
+<td
+style="width: 101px; vertical-align: middle; text-align: center; background-color: rgb(255, 255, 102);">K3280<br>
+</td>
+<td style="background-color: white;" align="center"
+valign="middle" width="109"><br>
+</td>
+<td
+style="text-align: center; background-color: rgb(255, 255, 102);">OOP345NEEL</td>
+<td style="background-color: white;" align="center"><br>
+</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff">&nbsp;</td>
+</tr>
+<tr>
+<td align="center" valign="middle" width="18">9</td>
+<td align="center" valign="middle" width="45">15:20<br>
+16:10</td>
+<td style="text-align: center; background-color: white;"> <br>
+</td>
+<td style="text-align: center; background-color: white;"><br>
+</td>
+<td
+style="text-align: center; background-color: rgb(255, 255, 102);">LAB
+C3032<br>
+</td>
+<td style="text-align: center; background-color: white;"><br>
+</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff" width="108">&nbsp;</td>
+</tr>
+<tr>
+<td align="center" height="37" valign="middle" width="18">10</td>
+<td align="center" height="37" valign="middle" width="45">16:15<br>
+17:05</td>
+<td
+style="width: 101px; vertical-align: middle; text-align: center; background-color: white;">&nbsp;</td>
+<td
+style="width: 109px; vertical-align: middle; height: 37px; text-align: center; background-color: white;"><br>
+</td>
+<td style="text-align: center; background-color: white;">&nbsp;</td>
+<td style="text-align: center; background-color: white;"><br>
+</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff" valign="middle" width="108">&nbsp;</td>
+</tr>
+<tr>
+<td align="center" height="37" valign="middle">11</td>
+<td align="center" height="37" valign="middle">17:10<br>
+18:00</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff" valign="middle">&nbsp;</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff" height="37" valign="middle">&nbsp;</td>
+<td style="background-color: white;" align="center">&nbsp;</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff"><br>
+</td>
+<td style="background-color: white;" align="center"
+bgcolor="#ffffff" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+<td style="vertical-align: middle; text-align: center;">12<br>
+</td>
+<td style="vertical-align: top; text-align: center;">18:05<br>
+19:00<br>
+</td>
+<td style="vertical-align: top; background-color: white;"><br>
+</td>
+<td style="vertical-align: top; background-color: white;"><br>
+</td>
+<td style="vertical-align: top; background-color: white;"><br>
+</td>
+<td
+style="vertical-align: middle; text-align: center; background-color: white;"><br>
+</td>
+<td style="vertical-align: top; background-color: white;"><br>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+Note: For Office hours I will be sitting at the tables in front of the
+office door. <br />
+If I am not there, please either call me at: 4164915050 x 24120 or <br /> 
+go to the reception desk and ask
+one of the
+secretaries to call me out.<br />
